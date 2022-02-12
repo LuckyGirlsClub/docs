@@ -6,14 +6,12 @@ description: Planned featured and goals for Lucky Girls Club.
 
 This roadmap contains future plans for Lucky Girls Club and are subject to change based on community feedback.
 
-### Phase 1.0 - 2022 Q1
+### 2022 Q1
 
-* [ ] Build community (Discord, Telegram, Twitter)
-* [ ] Launch website
-* [ ] Presale
+* [ ] Build a community on Discord and Twitter
+* [ ] Set up presale
 * [ ] Launch trading on SpookySwap
-* [ ] Set up multisig wallet
-* [ ] Audit
-* [ ] CoinCecko listing
-* [ ] CoinMarketCap listing
-* [ ] Partnerships and partnered pools
+* [ ] Set up a multisig wallet for relevant contracts
+* [ ] Get an audit from a reputable company
+* [ ] Get listed on CoinCecko, CoinMarketCap
+* [ ] Create partnerships with other projects in the community
