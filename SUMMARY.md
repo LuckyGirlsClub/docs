@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Lucky Girls Club](README.md)
+* [Introduction](README.md)
 * [FAQ](faq.md)
 * [Roadmap](roadmap.md)
 * [Quick Start](quick-start.md)
