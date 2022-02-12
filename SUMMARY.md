@@ -9,6 +9,6 @@
 
 ## 🔗 Links
 
-* [Website](https://example.com)
+* [Website](https://luck.wtf)
 * [Twitter](https://twitter.com/LuckyGirlsClub)
 * [Discord](https://discord.gg)
