@@ -6,16 +6,16 @@ description: Frequently asked questions.
 
 ### Troubleshooting
 
-If you run into issues on the website, try the following:
+If something on the website doesn't seem to work, try this:
 
-1. Hard refresh by and clearing cache and refreshing (usually Ctrl/Cmd+Shift+R).
-2. Switch from mobile to desktop.
-3. Try another browser.
+1. Hard refresh with Ctrl/Cmd+Shift+R (clears cache and reloads the page).
+2. Switch from phone to desktop.
+3. Try another browser (Chrome or Firefox should work).
 
-Visit the Discord community for more help!
+If you need more assistance, visit our Discord!
 
-**For questions related to SpookySwap, please see the** [**SpookySwap FAQ**](https://docs.spookyswap.finance/getting-started/faq)**.**
+**For SpookySwap related questions please see the** [**SpookySwap FAQ**](https://docs.spookyswap.finance/getting-started/faq)**.**
 
-### How do I buy LUCKY?
+### Where can I buy LUCKY?
 
 Visit the [Swap](https://spookyswap.finance/swap) page on SpookySwap and swap FTM for LUCKY.

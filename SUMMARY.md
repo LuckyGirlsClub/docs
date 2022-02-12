@@ -3,7 +3,6 @@
 * [Introduction](README.md)
 * [FAQ](faq.md)
 * [Roadmap](roadmap.md)
-* [Quick Start](quick-start.md)
 * [Mechanics](mechanics.md)
 * [Supply Breakdown](supply-breakdown.md)
 * [Addresses](addresses.md)
