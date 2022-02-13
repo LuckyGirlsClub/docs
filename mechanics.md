@@ -14,19 +14,17 @@ When buying the $LUCKY token, there is a chance of receiving extra tokens as a r
 * 10% chance to receive 50% more
 * 5% chance to receive 100% more
 
-We can formulate this as a 3x2 luck matrix L:
+We can formulate this as a 3x2 luck matrix **L**:
 
-```
-L = [P R], where
-P = [p, q, r] = [20, 10, 5]
-R = [a, b, c] = [10, 50, 100]
-```
+&#x20;   `L = [P R], where`
 
-We define the value V of L as
+&#x20;   `P = [p1, p2, p3] = [20, 10, 5]`
 
-```
-V = P • R = pa + qb + rc
-```
+&#x20;   `R = [r1, r2, r3] = [10, 50, 100]`
+
+We define the value **V** of **L** as the dot product of **P** and **R:**
+
+&#x20;   `V = P • R = p1*r1 + p2*r2 + p3*r3`
 
 V is measured in basis points, i.e. an index relative to 10000. Using the values of the above example we get **V = 20\*10 + 10\*50 + 5\*100 = 1200**. To understand what this means, think of it in percentage (divide by 100). **V = 12%** means that, statistically, a buyer will be rewarded 12% more tokens than they set out to buy.
 
