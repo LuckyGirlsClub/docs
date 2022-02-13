@@ -4,6 +4,8 @@ description: Learn exactly how the token and the NFTs interact with each other.
 
 # Mechanics
 
+You could consider this page as our "whitepaper".
+
 ### $LUCKY mechanics
 
 When buying the $LUCKY token, there is a chance of receiving extra tokens as a reward. The default values are:

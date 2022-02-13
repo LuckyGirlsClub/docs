@@ -1,10 +1,10 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [FAQ](faq.md)
 * [Roadmap](roadmap.md)
+* [FAQ](faq.md)
 * [Mechanics](mechanics.md)
-* [Supply Breakdown](supply-breakdown.md)
+* [Supply Distribution](supply-distribution.md)
 * [Addresses](addresses.md)
 
 ## 🔗 Links

@@ -12,10 +12,14 @@ Every time you buy $LUCKY, our governance token, you have a chance of being rewa
 
 You can improve your odds by holding Lucky Girls in your wallet.
 
+At most, you can double your odds, meaning 40/20/10 instead of 20/10/5.
+
 ### Lucky Girls - a beautiful NFT collection
 
-Lucky Girls are multi-trait NFTs generated from a set of over 200 assets. Each NFT comes with with a rating based on a weighted combination of its traits.
+Lucky Girls are multi-trait NFTs generated from a set of over 200 assets. Each NFT comes with with a rarity score based on its traits.
 
-The more Lucky Girls you hold in your wallet, the higher your chances are of earning bonus $LUCKY tokens when buying on SpookySwap.
+The more Lucky Girls you hold in your wallet, and the higher the score of each Lucky Girl is, the higher your chances are of earning bonus $LUCKY tokens when buying on SpookySwap.
+
+The supply of Lucky Girls is limited to 2000 girls.
 
 Learn more by reading about the [mechanics](mechanics.md) in detail, or [start minting](https://luck.wtf) right away.
