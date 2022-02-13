@@ -2,6 +2,8 @@
 
 Lucky Girls Club is an innovative DeFi platform on the Fantom network that combines a luck-based ERC-20 token with a score-based NFT collection.
 
+![Just a few of the girls.](.gitbook/assets/banner.png)
+
 ### $LUCKY - a token with a twist
 
 Every time you buy $LUCKY, our governance token, you have a chance of being rewarded extra tokens:
