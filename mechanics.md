@@ -16,17 +16,19 @@ When buying the $LUCKY token, there is a chance of receiving extra tokens as a r
 
 We can formulate this as a 3x2 luck matrix **L**:
 
-&#x20;   `L = [P R], where`
-
-&#x20;   `P = [p1, p2, p3] = [20, 10, 5]`
-
-&#x20;   `R = [r1, r2, r3] = [10, 50, 100]`
+```python
+L = [P R], where
+P = [p1, p2, p3] = [20, 10, 5]
+R = [r1, r2, r3] = [10, 50, 100]
+```
 
 We define the value **V** of **L** as the dot product of **P** and **R:**
 
-&#x20;   `V = P • R = p1*r1 + p2*r2 + p3*r3`
+```python
+V = P • R = p1*r1 + p2*r2 + p3*r3
+```
 
-V is measured in basis points, i.e. an index relative to 10000. Using the values of the above example we get **V = 20\*10 + 10\*50 + 5\*100 = 1200**. To understand what this means, think of it in percentage (divide by 100). **V = 12%** means that, statistically, a buyer will be rewarded 12% more tokens than they set out to buy.
+**V** is measured in basis points, i.e. an index relative to 10000. Using the values of the above example we get **V = 20\*10 + 10\*50 + 5\*100 = 1200**. To understand what this means, think of it in percentage (divide by 100). **V = 12%** means that statistically, over time, a buyer will be rewarded 12% more tokens than they set out to buy.
 
 Since this type of reward mechanic leads to inflation, deflationary mechanisms are put in place (burn on sell, "paying" for services with LUCKY, etc).
 
@@ -63,13 +65,13 @@ We denote the rarity score (i.e. FinalRarityScore above) for a Lucky Girl as **s
 
 We define the sum **w** of the rarity score of each Lucky Girl held by an address:
 
-```
+```python
 w = Sum(s[TokenID] for every TokenID)
 ```
 
 We then define the _compound rarity score_:
 
-```
+```python
 s(w) = a * w / (w + b)    where b > 0
 ```
 
@@ -83,7 +85,7 @@ Some notes on this definition:
 
 We will now talk about the bonus matrix B, which is added to the luck matrix L in order to create a bonus reward for Lucky Girls holders. It can be parameterized by s in the following way:
 
-```
+```python
 B = | p_i(s)  r_i(s) |
     |  ...     ...   |
     |  ...     ...   |
@@ -91,7 +93,7 @@ B = | p_i(s)  r_i(s) |
 
 The exact definition of each •(s)-mapping in **L** above is to be decided; at the very least, each should have an upper bound determined by **s**. A suggestion is
 
-```
+```python
 pi(s) = L_{i,p} * s * ɑ        (chance)
 ri(s) = L_{i,r} * s * (1-ɑ)    (reward)
 
@@ -102,7 +104,7 @@ _When doing these operations in Solidity, keep in mind that alpha and s need to 
 
 So for instance, with **s = 0.5** and **ɑ = 0.2** we get
 
-```
+```python
 B = | 20ɑs   10(1-ɑ)s | = |   2    4 |
     | 10ɑs   50(1-ɑ)s |   |   1   20 |
     |  5ɑs  100(1-ɑ)s |   | 0.5   40 |
@@ -110,7 +112,7 @@ B = | 20ɑs   10(1-ɑ)s | = |   2    4 |
 
 and, adding the bonus matrix to the example luck matrix above before applying the value function, we get
 
-```
+```python
 V(L+B) = 22*14 + 11*70 + 5.5*140 = 1848 = 18.48%
 ```
 
