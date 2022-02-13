@@ -8,10 +8,17 @@ This roadmap contains future plans for Lucky Girls Club and are subject to chang
 
 ### 2022 Q1
 
-* [ ] Build a community on Discord and Twitter
-* [ ] Set up presale
+* [ ] Build a community
+* [ ] Set up a MultiSig wallet for relevant contracts
+* [ ] Launch presale on [presale.money](https://presale.money)
 * [ ] Launch trading on SpookySwap
-* [ ] Set up a multisig wallet for relevant contracts
 * [ ] Get an audit from a reputable company
 * [ ] Get listed on CoinCecko, CoinMarketCap
-* [ ] Create partnerships with other projects in the community
+
+### 2022 Q2
+
+* [ ] Improve utility of $LUCKY and Lucky Girls
+  * [ ] Gamification
+  * [ ] Voting
+  * [ ] ?
+* [ ] Build partnerships with other projects within the community
