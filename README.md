@@ -22,6 +22,6 @@ Lucky Girls are multi-trait NFTs generated from a set of over 200 assets. Each N
 
 The more Lucky Girls you hold in your wallet, and the higher the score of each Lucky Girl is, the higher your chances are of earning bonus $LUCKY tokens when buying on SpookySwap.
 
-The supply of Lucky Girls is limited to 2000 girls.
+The supply of Lucky Girls is limited to 3333 girls.
 
 Learn more by reading about the [mechanics](mechanics.md) in detail, or [start minting](https://luck.wtf) right away.

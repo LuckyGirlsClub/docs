@@ -15,6 +15,6 @@ The initial supply of LUCKY equals 3 million tokens.
 
 | Lucky Girls |                 |   |
 | ----------- | --------------- | - |
-| 5           | Developer mints |   |
-| 15          | Giveaways       |   |
-| 2980        | Public sale     |   |
+| 8           | Developer mints |   |
+| 25          | Giveaways       |   |
+| 3300        | Public sale     |   |
